@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# UBER PET
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Eixo 4 - Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`SEMESTRE`
+`4° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Apresenta-se a ideia de criar uma aplicação web/mobile com o propósito de auxiliar o tutor e o seu animal de estimação, oferecendo um transporte seguro e exclusivo para os pets.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alessandra Miria De Oliveira Ramos
+* Alex Costa Pereira
+* Rafael Augusto Domingos Batista
+* Roberta Motta Pacheco
+* Thainá Luisa Costa Siqueira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
