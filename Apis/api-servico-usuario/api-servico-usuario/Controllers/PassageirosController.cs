@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using api_servico_usuario.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace api_servico_usuario.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PassageirosController : ControllerBase
