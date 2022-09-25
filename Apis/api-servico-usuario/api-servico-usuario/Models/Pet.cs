@@ -22,15 +22,21 @@ namespace api_servico_usuario.Models
 
         public enum Animais
         {
+            [Display(Name ="Cachorro")]
             Cachorro,
+            [Display(Name = "Gato")]
             Gato,
+            [Display(Name = "Passaro")]
             Passaros
         }
 
         public enum PorteDoAnimal
         {
+            [Display(Name = "Pequeno")]
             Pequeno,
+            [Display(Name = "Medio")]
             Medio,
+            [Display(Name = "Grande")]
             Grande
         }
 
