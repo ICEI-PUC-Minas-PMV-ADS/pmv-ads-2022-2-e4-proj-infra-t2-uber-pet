@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using static api_servico_usuario.Models.LinkDto;
 
 namespace api_servico_usuario.Models
 {
     [Table("Pets")]
-    public class Pet
+    public class Pet : LinksHATEOS
     {
         [Key]
         public int IdPet { get; set; }

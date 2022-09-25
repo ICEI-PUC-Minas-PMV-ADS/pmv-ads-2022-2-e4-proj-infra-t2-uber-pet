@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using static api_servico_usuario.Models.LinkDto;
 
 namespace api_servico_usuario.Models
 {
     [Table("Usuarios")]
-    public class Usuario
+    public class Usuario : LinksHATEOS
     {
         [Key]
         public int IdUsuario { get; set; }
