@@ -38,6 +38,7 @@ namespace api_servico_usuario.Controllers
                 return NotFound();
             }
 
+            GerarLinks(pet);
             return pet;
         }
 
@@ -102,6 +103,13 @@ namespace api_servico_usuario.Controllers
         private bool PetExists(int id)
         {
             return _context.Pets.Any(e => e.IdPet == id);
+        }
+
+        private void GerarLinks(Pet pet)
+        {
+            pet.Links.Add(new LinkDto(pet.IdPet, Url.ActionLink(), rel: "self", metodo: "GET"));
+            pet.Links.Add(new LinkDto(pet.IdPet, Url.ActionLink(), rel: "self", metodo: "PUT"));
+            pet.Links.Add(new LinkDto(pet.IdPet, Url.ActionLink(), rel: "self", metodo: "Delete"));
         }
     }
 }

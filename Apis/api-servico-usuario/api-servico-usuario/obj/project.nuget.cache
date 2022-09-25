@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VdayTlGL8r57zA6vtY+lBU5M7kIHmuDa5w2d3HWE8eufGHa3uyZFwBq/mDU1IU/KV8KDWFLJPQhrCxGQ1XGOxw==",
+  "dgSpecHash": "AF/VmWAciZCcp7Vt7Yw6kBkS8gGrpb0MlbBKt4KcayYJU4PBypZ+Uj0IdXF9opOFJT8OQtEJZv0Zqqm4ComNxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Roberta\\source\\repos\\api-servico-usuario\\api-servico-usuario\\api-servico-usuario.csproj",
+  "projectFilePath": "C:\\Users\\Roberta\\Documents\\GitHub\\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\\Apis\\api-servico-usuario\\api-servico-usuario\\api-servico-usuario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Roberta\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Roberta\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

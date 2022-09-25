@@ -10069,11 +10069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roberta\\source\\repos\\api-servico-usuario\\api-servico-usuario\\api-servico-usuario.csproj",
+      "projectUniqueName": "C:\\Users\\Roberta\\Documents\\GitHub\\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\\Apis\\api-servico-usuario\\api-servico-usuario\\api-servico-usuario.csproj",
       "projectName": "api-servico-usuario",
-      "projectPath": "C:\\Users\\Roberta\\source\\repos\\api-servico-usuario\\api-servico-usuario\\api-servico-usuario.csproj",
+      "projectPath": "C:\\Users\\Roberta\\Documents\\GitHub\\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\\Apis\\api-servico-usuario\\api-servico-usuario\\api-servico-usuario.csproj",
       "packagesPath": "C:\\Users\\Roberta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roberta\\source\\repos\\api-servico-usuario\\api-servico-usuario\\obj\\",
+      "outputPath": "C:\\Users\\Roberta\\Documents\\GitHub\\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\\Apis\\api-servico-usuario\\api-servico-usuario\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

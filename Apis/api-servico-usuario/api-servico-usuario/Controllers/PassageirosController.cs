@@ -31,13 +31,16 @@ namespace api_servico_usuario.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Passageiro>> GetPassageiro(int id)
         {
-            var passageiro = await _context.Passageiros.FindAsync(id);
+            var passageiro = await _context.Passageiros
+                .Include(x => x.Pets)
+                .FirstOrDefaultAsync(c => c.IdPassageiro == id);
 
             if (passageiro == null)
             {
                 return NotFound();
             }
 
+            GerarLinks(passageiro);
             return passageiro;
         }
 
@@ -102,6 +105,13 @@ namespace api_servico_usuario.Controllers
         private bool PassageiroExists(int id)
         {
             return _context.Passageiros.Any(e => e.IdPassageiro == id);
+        }
+
+        private void GerarLinks(Passageiro passageiro)
+        {
+            passageiro.Links.Add(new LinkDto(passageiro.IdPassageiro, Url.ActionLink(), rel: "self", metodo: "GET"));
+            passageiro.Links.Add(new LinkDto(passageiro.IdPassageiro, Url.ActionLink(), rel: "self", metodo: "PUT"));
+            passageiro.Links.Add(new LinkDto(passageiro.IdPassageiro, Url.ActionLink(), rel: "self", metodo: "Delete"));
         }
     }
 }
