@@ -524,3 +524,5 @@ C:\Users\Roberta\Documents\GitHub\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\Apis\
 C:\Users\Roberta\Documents\GitHub\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\Apis\api-servico-usuario\api-servico-usuario\obj\Debug\net6.0\api-servico-usuario.pdb
 C:\Users\Roberta\Documents\GitHub\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\Apis\api-servico-usuario\api-servico-usuario\obj\Debug\net6.0\api-servico-usuario.genruntimeconfig.cache
 C:\Users\Roberta\Documents\GitHub\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\Apis\api-servico-usuario\api-servico-usuario\obj\Debug\net6.0\ref\api-servico-usuario.dll
+C:\Users\Roberta\Documents\GitHub\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\Apis\api-servico-usuario\api-servico-usuario\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\Roberta\Documents\GitHub\pmv-ads-2022-2-e4-proj-infra-t2-uber-pet\Apis\api-servico-usuario\api-servico-usuario\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

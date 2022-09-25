@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using api_servico_usuario.Models;
+using NuGet.Protocol.Plugins;
 
 namespace api_servico_usuario.Controllers
 {
@@ -33,6 +34,7 @@ namespace api_servico_usuario.Controllers
         {
             var usuario = await _context.Usuarios
                 .Include(t => t.Passageiro)
+                .Include(p => p.Passageiro.Pets)
                 .FirstOrDefaultAsync(c => c.IdUsuario == id);
 
             if (usuario == null)
@@ -47,30 +49,30 @@ namespace api_servico_usuario.Controllers
         // PUT: api/Usuarios/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
+        public async Task<IActionResult> Update(int id, UsuarioDto usuario)
         {
             if (id != usuario.IdUsuario)
             {
                 return BadRequest();
             }
 
-            _context.Entry(usuario).State = EntityState.Modified;
+            var modeloDb = await _context.Usuarios.AsNoTracking()
+                .FirstOrDefaultAsync(c => c.IdUsuario == id);
 
-            try
+            if (modeloDb == null)
             {
-                await _context.SaveChangesAsync();
+                return NotFound();
             }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UsuarioExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+
+            modeloDb.Nome = usuario.Nome;
+            modeloDb.Login = usuario.Login;
+            modeloDb.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+            modeloDb.Ativo = usuario.Ativo;
+            modeloDb.Perfil = usuario.Perfil;
+            modeloDb.Passageiro = usuario.Passageiro;
+
+            _context.Usuarios.Update(modeloDb);
+            await _context.SaveChangesAsync();
 
             return NoContent();
         }
@@ -78,12 +80,22 @@ namespace api_servico_usuario.Controllers
         // POST: api/Usuarios
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
+        public async Task<ActionResult<UsuarioDto>> PostUsuario(UsuarioDto usuario)
         {
-            _context.Usuarios.Add(usuario);
+            Usuario novo = new Usuario()
+            {
+                Nome = usuario.Nome,
+                Login = usuario.Login,
+                Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha),
+                Ativo = usuario.Ativo,
+                Perfil = usuario.Perfil,
+                Passageiro = usuario.Passageiro
+            };
+
+            _context.Usuarios.Add(novo);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUsuario", new { id = usuario.IdUsuario }, usuario);
+            return CreatedAtAction("GetUsuario", new { id = novo.IdUsuario }, novo);
         }
 
         // DELETE: api/Usuarios/5
@@ -107,7 +119,7 @@ namespace api_servico_usuario.Controllers
             return _context.Usuarios.Any(e => e.IdUsuario == id);
         }
 
-        private void GerarLinks (Usuario usuario)
+        private void GerarLinks(Usuario usuario)
         {
             usuario.Links.Add(new LinkDto(usuario.IdUsuario, Url.ActionLink(), rel: "self", metodo: "GET"));
             usuario.Links.Add(new LinkDto(usuario.IdUsuario, Url.ActionLink(), rel: "self", metodo: "PUT"));
