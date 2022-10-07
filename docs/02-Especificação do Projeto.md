@@ -186,13 +186,15 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Cronograma](https://user-images.githubusercontent.com/84281638/194572814-f7a1f686-58b2-4a49-b908-6d47e2b375ea.png)
+
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+![orçamento](https://user-images.githubusercontent.com/84281638/194572780-5cb8ab62-f6a0-4589-9d61-0c6def004eb9.png)
+
 
 
 
