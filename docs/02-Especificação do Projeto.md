@@ -8,19 +8,48 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|![Fernanda Lopes](https://user-images.githubusercontent.com/84281638/194553518-44f6bc6e-1ed0-4b25-88fc-c014f7732180.png)|Fernanda Lopes|
+---|---
+|Idade| 35 anos|
+|Estado civil| Solteira|
+|Ocupação| Gerente de vendas|
+|Aplicativos| Linkedin; Instagram|
+|Motivações| Viagem a lazer; mais tempo com seu pet; andar pela cidade sem se preocupar onde estacionar|
+|Frustações| Atrasos em eventos que permitem entrada de pets; não poder ir a longa distâncias com seu gato|
+|Hoobies| Yoga; leitura; caminhada|
+
+|![Renato Silva](https://user-images.githubusercontent.com/84281638/194552880-853d452f-d952-445d-a37b-1c335b1f7b93.png)|Renato Silva|
+---|---
+|Idade| 39 anos|
+|Estado civil| Casado|
+|Ocupação| Vendedor de imóveis|
+|Aplicativos| Waze; CamScanner|
+|Motivações|Poder se exercitar com seu cachorro|
+|Frustações| Limitações de opções e lugares onde ir com seu pet|
+|Hoobies| Futebol; correr|
+
+|![Carlos Nascimento](https://user-images.githubusercontent.com/84281638/194552547-071c82c4-3145-4ed0-985a-2606c38706f6.png)|Carlos Nascimento|
+---|---
+|Idade| 25 anos; deficiente visual|
+|Estado civil| Solteiro|
+|Ocupação|Vendedor|
+|Aplicativos| Instagram; youtube|
+|Motivações|Passeear livremente com seu cão guia; pontualidade|
+|Frustações| Ter corridas canceladas por ter cão guia|
+|Hoobies| Sair com os amigos; escutar música|
+
+|![Roberto Ferreira](https://user-images.githubusercontent.com/84281638/194554412-814791bd-1ce6-4580-a36b-05fec32c8ddd.png)|Roerto Ferreira|
+---|---
+|Idade| 45 anos|
+|Estado civil| Divorciado|
+|Ocupação|Fotografo profissional|
+|Aplicativos| Facebook; linkedin|
+|Motivações|Companhia do seu pet|
+|Frustações| Não ter serviço específico para transporte com seu pet|
+|Hoobies| Fotografia; filmes|
+
 
 ## Histórias de Usuários
 
@@ -113,6 +142,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
+
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
@@ -171,3 +201,7 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
 ![Orçamento](img/02-orcamento.png)
+
+
+
+
