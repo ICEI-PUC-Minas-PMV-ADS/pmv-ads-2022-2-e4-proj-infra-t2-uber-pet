@@ -105,30 +105,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Criação de conta de usuário | ALTA | 
+|RF-002| Login de conta   | ALTA |
+|RF-003| Alterar conta   | ALTA |
+|RF-004|Cadastro forma de pagamento   | ALTA |
+|RF-005| Visualizar motoristas nas proximidades   |MÉDIA |
+|RF-006|Simular preço de corrida  | ALTA |
+|RF-007| Solicitar corrida   | ALTA |
+|RF-008| Cancelar corrida  | ALTA |
+|RF-009| Alertas sobre corrida solicitada  |BAIXA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito  |
+|-------|-------------------------|
+|RNF-001| O sistema deve ser capaz de apresentar uma boa usabilidade para o usuário |
+|RNF-002| O sistema deve ser capaz de tratar exceções e se recuperar de falhas sem que haja perda de dados |
+|RNF-003| O sistema não pode demorar para processar as informações mais de 3 segundos |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -137,33 +132,45 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| A aplicação deve se restringir às tecnologias solicitadas para os requsiitos do projeto|
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho|
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![image4](https://user-images.githubusercontent.com/84281638/194567411-a9783750-cf1c-4bda-ae5d-077761a58726.png)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+Tabela dos atores e suas definições no diagrama de cados de uso:
+
+|Ator|Definição|
+|---|---|
+|Tutor | Usuário que necessida de prestação de serviços automotivos|
+|Motorista | Profissional da área automotiva|
+|Administrador | Pessoa responsável por gerenciar o sistema, usuários e prestadores|
+
 
 # Matriz de Rastreabilidade
 
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+
+| |RF 01|RF 02|RF 03|RF 04|RF 05|RF 06|RF 07|RF 08|RF 09|
+|---|---|---|---|---|---|---|---|---|---|
+|RF 01| | | | | | | | | |
+|RF 02|:X:| | | | | | | | |
+|RF 03|X| | | | | | | | |
+|RF 04| |X| | | | | | | |
+|RF 05| | | | | | | | | |
+|RF 06| | | |X| | | | | |
+|RF 07| | | |X| | | | | |
+|RF 08| | | | | | | | | |
+|RF 09| | | | | | | | | |
+
+
 
 ![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
 
