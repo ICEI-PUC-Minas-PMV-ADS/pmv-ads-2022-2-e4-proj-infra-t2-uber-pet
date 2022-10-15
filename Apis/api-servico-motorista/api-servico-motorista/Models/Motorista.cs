@@ -9,11 +9,13 @@ namespace api_servico_motorista.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; }
 
-        public string NomeMotorista { get; set; }
+        public string NomeMotorista { get; set; } = null!;
+        public string Login { get; set; } = null!;
+        public string Senha { get; set; } = null!;
 
-        public string CNH { get; set; }
-        public string Telefone { get; set; }
-        public string RG { get; set; }
+        public string CNH { get; set; } = null!;
+        public string Telefone { get; set; } = null!;
+        public string RG { get; set; } = null!;
         public DateTime DataCadastro { get; set; }
         public DateTime VencimentoCNH { get; set; }
         public Veiculo? Veiculo { get; set; }
