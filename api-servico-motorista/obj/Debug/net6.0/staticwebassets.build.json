@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fZA0eoKI082q+9CROgTQsp7MSwXeOFmlPwpy7uuSzi4=",
+  "Source": "api-servico-motorista",
+  "BasePath": "_content/api-servico-motorista",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
