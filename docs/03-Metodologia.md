@@ -72,15 +72,16 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas que serão empregadas neste na elaboração do projeto serão:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+|Ambiente| Plataforma|	Link de Acesso|
+|--------|-----------|--------|
+|Repositório de código fonte	|GitHub|	https://github.com/rommelcarneiro/tiaw-template|
+|Ferramenta de apoio a o desenvolvimento|	Visual Studio|	https://visualstudio.microsoft.com/pt-br/services/github-codespaces/|
+|Projeto de Interface e Wireframes|	Marvel app|	https://marvelapp.com/project/5659252|
+|Gerenciamento do Projeto|	Trello	|[https://trello.com/b/LupglzUz/tiaw-template](https://trello.com/b/YrfrXuaG/atualiza%C3%A7%C3%B5es)|
+|Front-End|	React-Native|	https://reactnative.dev/|
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)

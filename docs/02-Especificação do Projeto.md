@@ -8,19 +8,48 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|![Fernanda Lopes](https://user-images.githubusercontent.com/84281638/194553518-44f6bc6e-1ed0-4b25-88fc-c014f7732180.png)|Fernanda Lopes|
+---|---
+|Idade| 35 anos|
+|Estado civil| Solteira|
+|Ocupação| Gerente de vendas|
+|Aplicativos| Linkedin; Instagram|
+|Motivações| Viagem a lazer; mais tempo com seu pet; andar pela cidade sem se preocupar onde estacionar|
+|Frustações| Atrasos em eventos que permitem entrada de pets; não poder ir a longa distâncias com seu gato|
+|Hoobies| Yoga; leitura; caminhada|
+
+|![Renato Silva](https://user-images.githubusercontent.com/84281638/194552880-853d452f-d952-445d-a37b-1c335b1f7b93.png)|Renato Silva|
+---|---
+|Idade| 39 anos|
+|Estado civil| Casado|
+|Ocupação| Vendedor de imóveis|
+|Aplicativos| Waze; CamScanner|
+|Motivações|Poder se exercitar com seu cachorro|
+|Frustações| Limitações de opções e lugares onde ir com seu pet|
+|Hoobies| Futebol; correr|
+
+|![Carlos Nascimento](https://user-images.githubusercontent.com/84281638/194552547-071c82c4-3145-4ed0-985a-2606c38706f6.png)|Carlos Nascimento|
+---|---
+|Idade| 25 anos; deficiente visual|
+|Estado civil| Solteiro|
+|Ocupação|Vendedor|
+|Aplicativos| Instagram; youtube|
+|Motivações|Passeear livremente com seu cão guia; pontualidade|
+|Frustações| Ter corridas canceladas por ter cão guia|
+|Hoobies| Sair com os amigos; escutar música|
+
+|![Roberto Ferreira](https://user-images.githubusercontent.com/84281638/194554412-814791bd-1ce6-4580-a36b-05fec32c8ddd.png)|Roerto Ferreira|
+---|---
+|Idade| 45 anos|
+|Estado civil| Divorciado|
+|Ocupação|Fotografo profissional|
+|Aplicativos| Facebook; linkedin|
+|Motivações|Companhia do seu pet|
+|Frustações| Não ter serviço específico para transporte com seu pet|
+|Hoobies| Fotografia; filmes|
+
 
 ## Histórias de Usuários
 
@@ -28,17 +57,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Fernanda Lopes |um aplicativo de corrida que aceite viagens com meu cachorro | mais lazer com meu cachorro |
+|Fernanda Lopes     | ir para eventos com meu cachorro sem a necessidade de ir com meu própio carro |evitar longo tempo procurando lugares para estacionar |
+|Renato Silva|mandar per para banho e tosa sem precisar estar presente|falta de tempo, pois trabalha e estuda|
+|Renato Silva| conseguir acompanhar a viagem do pet|segurança quando solicitar um serviço de transporte para o pet|
+|Carlos Nascimento| um transporte seguro para o pet (cão guia) que possa confiar|por ser cego, necessita de segurança para  se locomover com seu cão guia|
+|Carlos Nascimento|passear com o pet para lugares mais distantes quando necessario|por não ter carro, as vezes fica impossibilitado de realizar determinados passeios|
+|Renato Ferreira| mandar buscar o pet em casa|com um ptransporte seguro e de qualidade, possibilidade de mandar o pet sozinho|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
@@ -79,30 +105,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Criação de conta de usuário | ALTA | 
+|RF-002| Login de conta   | ALTA |
+|RF-003| Alterar conta   | ALTA |
+|RF-004|Cadastro forma de pagamento   | ALTA |
+|RF-005| Visualizar motoristas nas proximidades   |MÉDIA |
+|RF-006|Simular preço de corrida  | ALTA |
+|RF-007| Solicitar corrida   | ALTA |
+|RF-008| Cancelar corrida  | ALTA |
+|RF-009| Alertas sobre corrida solicitada  |BAIXA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito  |
+|-------|-------------------------|
+|RNF-001| O sistema deve ser capaz de apresentar uma boa usabilidade para o usuário |
+|RNF-002| O sistema deve ser capaz de tratar exceções e se recuperar de falhas sem que haja perda de dados |
+|RNF-003| O sistema não pode demorar para processar as informações mais de 3 segundos |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -111,39 +132,42 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| A aplicação deve se restringir às tecnologias solicitadas para os requsiitos do projeto|
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho|
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![image4](https://user-images.githubusercontent.com/84281638/194567411-a9783750-cf1c-4bda-ae5d-077761a58726.png)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+Tabela dos atores e suas definições no diagrama de cados de uso:
+
+|Ator|Definição|
+|---|---|
+|Tutor | Usuário que necessida de prestação de serviços automotivos|
+|Motorista | Profissional da área automotiva|
+|Administrador | Pessoa responsável por gerenciar o sistema, usuários e prestadores|
+
 
 # Matriz de Rastreabilidade
 
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+| |RF 01|RF 02|RF 03|RF 04|RF 05|RF 06|RF 07|RF 08|RF 09|
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|RF 01| | | | | | | | | |
+|RF 02|X| | | | | | | | |
+|RF 03|X| | | | | | | | |
+|RF 04| |X| | | | | | | |
+|RF 05| | | | | | | | | |
+|RF 06| | | |X| | | | | |
+|RF 07| | | |X| | | | | |
+|RF 08| | | | | | | | | |
+|RF 09| | | | | | | | | |
 
 
 # Gerenciamento de Projeto
@@ -154,20 +178,24 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+![image5](https://user-images.githubusercontent.com/84281638/194570928-4e12c07f-0990-4d6f-a906-c897991ab9f4.png)
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Cronograma](https://user-images.githubusercontent.com/84281638/194572814-f7a1f686-58b2-4a49-b908-6d47e2b375ea.png)
+
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+![orçamento](https://user-images.githubusercontent.com/84281638/194572780-5cb8ab62-f6a0-4589-9d61-0c6def004eb9.png)
+
+
+
+
+
