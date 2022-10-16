@@ -13,7 +13,11 @@ Para o desenvolvimento da solução foi definido o desenvolvimento de 3 APIs:
 - Para os pagamentos uma API externa será utilizada.
 Como porta de entrada para os microsserviços foi utilizado um APIGateway. Quando o Cliente chamar um microsserviço estará chamando o APIGateway que direcionara a chamada para o microsserviço apropiado. Nessa solucão foi utilizada a biblioteca Ocelot que permite criar o APIGateway com o ASP.NET (https://ocelot.readthedocs.io/en/latest/features/configuration.html)
 
-
+## Recursos e Rotas
+![Recursos e rotas usuários](img/swagger_usuario_1.PNG)
+![Recursos e rotas usuários](img/swagger_usuario_2.PNG)
+![Recursos e rotas motorista](img/swagger_motorista_1.PNG)
+![Recursos e rotas motorista](img/swagger_motorista_2.PNG)
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
