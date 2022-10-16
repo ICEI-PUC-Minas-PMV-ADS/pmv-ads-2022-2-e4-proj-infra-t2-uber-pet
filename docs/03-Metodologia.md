@@ -73,6 +73,6 @@ As ferramentas que serão empregadas neste na elaboração do projeto serão:
 |Projeto de Interface e Wireframes|	Marvel app|	https://marvelapp.com/project/5659252|
 |Gerenciamento do Projeto|	Trello	|[https://trello.com/b/LupglzUz/tiaw-template](https://trello.com/b/YrfrXuaG/atualiza%C3%A7%C3%B5es)|
 |Front-End|	React-Native|	https://reactnative.dev/|
-|Criacão dos diagramas/ Arquitetura|	Draw.io|	[https://reactnative.dev/](https://drawio-app.com/)|
+|Criacão dos diagramas/ Arquitetura|	Draw.io|https://drawio-app.com/|
 
 
