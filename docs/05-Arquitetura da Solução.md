@@ -52,6 +52,7 @@ Para o desenvolvimento dessa aplicação estão sendo utilizadas as seguintes te
 - MongoDB - Banco de dados NoSQL (armazenando dados dos motoristas)
 - Visual Studio - IDE
 - JWT - Autenticação de usuários 
+- Ocelot - APIGateway
 
 
 ## Hospedagem
