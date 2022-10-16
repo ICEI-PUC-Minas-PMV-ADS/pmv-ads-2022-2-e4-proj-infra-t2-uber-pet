@@ -4,7 +4,7 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da Solução](img/Pet uber.drawio.png)
+![Arquitetura da Solução](img/Pet_uber_drawio.png)
 
 ## Diagrama de Classes
 
