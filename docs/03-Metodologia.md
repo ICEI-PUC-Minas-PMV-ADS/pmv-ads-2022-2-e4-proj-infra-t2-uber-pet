@@ -45,30 +45,17 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+- Scrum Master: Thainá Luisa Costa Siqueira;
+- Product Owner: Rafael Augusto Domingos Batista;
+- Equipe de Desenvolvimento: Roberta Motta Pacheco, Alex Costa Pereira;
+- Equipe de Design: Alessandra Miria De Oliveira Ramos.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Todos os sprits do produto serão apresentados no backlog do Produto, aonde o time Scrum, aonde apresentará semanalmente as tarefas a serem ser concluída em cada etapa proposta, os membros do grupo responsável pela tarefa e a situação da mesma além de se ter a data limite de entrega a qual não deverá ser ultrapassada.Para vizualização das task e o acompanhemento do desenvolvimento das mesmas foi escolhido a ferramenta Trello. Tal ferramenta se juga necessária para caso algum membro do time tenha alguma dificuldade ao realizar a tarefa a ele incumbida e acabe por atrasar o andamento do projeto, desta forma demais membros do time poderá auxiliar na tarefa se necessário. Além dessa função de auxiliar e gerenciar os membros do grupo, e possível visualizar as correções e melhorias a serem realizadas de forma dinâmica e eficaz, ficando definido da forma abaixo apresentado.
+
  
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
 
@@ -76,13 +63,12 @@ As ferramentas que serão empregadas neste na elaboração do projeto serão:
 
 |Ambiente| Plataforma|	Link de Acesso|
 |--------|-----------|--------|
-|Repositório de código fonte	|GitHub|	https://github.com/rommelcarneiro/tiaw-template|
+|Repositório de código fonte e versionamento	|GitHub|	https://github.com/rommelcarneiro/tiaw-template|
 |Ferramenta de apoio a o desenvolvimento|	Visual Studio|	https://visualstudio.microsoft.com/pt-br/services/github-codespaces/|
+|Ferramenta de apoio a o desenvolvimento|	Insomnia|	[https://visualstudio.microsoft.com/pt-br/services/github-codespaces/](https://insomnia.rest/)|
 |Projeto de Interface e Wireframes|	Marvel app|	https://marvelapp.com/project/5659252|
 |Gerenciamento do Projeto|	Trello	|[https://trello.com/b/LupglzUz/tiaw-template](https://trello.com/b/YrfrXuaG/atualiza%C3%A7%C3%B5es)|
 |Front-End|	React-Native|	https://reactnative.dev/|
+|Criacão dos diagramas/ Arquitetura|	Draw.io|	[https://reactnative.dev/](https://drawio-app.com/)|
 
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+
