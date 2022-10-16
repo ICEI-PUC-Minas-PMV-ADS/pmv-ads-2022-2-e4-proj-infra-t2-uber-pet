@@ -69,7 +69,7 @@ As ferramentas que serão empregadas neste na elaboração do projeto serão:
 |--------|-----------|--------|
 |Repositório de código fonte e versionamento	|GitHub|	https://github.com/rommelcarneiro/tiaw-template|
 |Ferramenta de apoio a o desenvolvimento|	Visual Studio|	https://visualstudio.microsoft.com/pt-br/services/github-codespaces/|
-|Ferramenta de testes das APIs|	Insomnia|	[[https://visualstudio.microsoft.com/pt-br/services/github-codespaces/](https://insomnia.rest/)]|
+|Ferramenta de testes das APIs|	Insomnia|	https://insomnia.rest/|
 |Projeto de Interface e Wireframes|	Marvel app|	https://marvelapp.com/project/5659252|
 |Gerenciamento do Projeto|	Trello	|[https://trello.com/b/LupglzUz/tiaw-template](https://trello.com/b/YrfrXuaG/atualiza%C3%A7%C3%B5es)|
 |Front-End|	React-Native|	https://reactnative.dev/|
