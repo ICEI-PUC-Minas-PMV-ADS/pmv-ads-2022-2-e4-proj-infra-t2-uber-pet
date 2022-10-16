@@ -37,9 +37,14 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Para o desenvolvimento dessa aplicação estão sendo utilizadas as seguintes tecnologias:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- C# - Desenvolvimento do Back-end
+- React - Front-end
+- MongoDB - Banco de dados NoSQL (armazenando dados dos motoristas)
+- Visual Studio - IDE
+- JWT - Autenticação de usuários 
+
 
 ## Hospedagem
 
