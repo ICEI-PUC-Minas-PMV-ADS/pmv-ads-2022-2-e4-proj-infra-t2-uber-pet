@@ -53,6 +53,9 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
  
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
+![enade 2021 ciência da computação licenciatura 13](https://user-images.githubusercontent.com/81395957/196066929-75d5bd5a-d44c-4733-bff3-9fd31ee692fe.jpg)
+
+
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
 ## Modelo Físico
