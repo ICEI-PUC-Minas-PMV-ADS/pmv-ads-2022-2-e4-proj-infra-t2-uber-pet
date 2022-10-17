@@ -22,6 +22,8 @@ Como porta de entrada para os microsserviços foi utilizado um APIGateway. Quand
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
+![Diagramas de Classe UML Exemplo - Page 1](https://user-images.githubusercontent.com/81395957/196065354-9e4e7df0-176c-4e46-8a59-66296a34db89.png)
+
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
 > - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
