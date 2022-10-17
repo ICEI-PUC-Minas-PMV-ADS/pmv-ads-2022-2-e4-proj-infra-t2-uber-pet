@@ -22,7 +22,7 @@ Como porta de entrada para os microsserviços foi utilizado um APIGateway. Quand
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Uploading Diagramas de Classe UML Exemplo - Page 1.png…]()
+![Diagramas de Classe UML Exemplo - Page 1](https://user-images.githubusercontent.com/81395957/196065752-82ff6a45-5e80-45c9-8819-3fcfcc8447ea.png)
 ![Diagrama de Classe - Page 1](https://user-images.githubusercontent.com/81395957/196065658-036bd03d-58de-4345-9fa2-6f253c209048.png)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
@@ -35,6 +35,9 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+
+![Uploading Diagramas de Classe UML Exemplo - Page 1.png…]()
+
 
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
