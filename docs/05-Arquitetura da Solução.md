@@ -22,19 +22,24 @@ Como porta de entrada para os microsserviços foi utilizado um APIGateway. Quand
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Diagramas de Classe UML Exemplo - Page 1](https://user-images.githubusercontent.com/81395957/196065752-82ff6a45-5e80-45c9-8819-3fcfcc8447ea.png)
-![Diagrama de Classe - Page 1](https://user-images.githubusercontent.com/81395957/196065658-036bd03d-58de-4345-9fa2-6f253c209048.png)
+![Diagrama de Classe - Page 1](https://user-images.githubusercontent.com/81395957/196066793-85ad2716-3dbf-49dc-8f70-a60558837cbc.png)
+
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
 > - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
 > - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
+
+
 ## Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+
+![Diagramas de Classe UML Exemplo - Page 1](https://user-images.githubusercontent.com/81395957/196066778-e7a547ca-3ca7-4470-b19f-1b2836ba0653.png)
+
 
 ![Uploading Diagramas de Classe UML Exemplo - Page 1.png…]()
 
