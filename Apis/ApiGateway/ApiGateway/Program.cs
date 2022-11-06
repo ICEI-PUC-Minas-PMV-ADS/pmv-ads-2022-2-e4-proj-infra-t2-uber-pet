@@ -22,10 +22,7 @@ namespace OcelotBasic
             .ConfigureServices(s => {
                 s.AddOcelot();
             })
-            .ConfigureLogging((hostingContext, logging) =>
-            {
-                //add your logging
-            })
+            .ConfigureLogging(logging => logging.AddConsole())
             .UseIISIntegration()
             .Configure(app =>
             {
